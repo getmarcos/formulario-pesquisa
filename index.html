@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Pesquisa de satisfação</title>
+</head>
+<body>
+    <header>
+        <h1>Pesquisa de Satisfação do Cliente</h1>
+    </header>
+
+    <main>
+        <form class="pesquisa-satisfacao">
+            <label>Nome e Sobrenome:*
+                <input type="text" class="input-padrao" required>
+            </label>
+
+            <fieldset class="opcoes"> 
+                <legend>Sexo:*</legend>
+                <label>
+                    <input type="radio" name="sexo" class="input-radio" required>
+                    Masculino
+                </label>
+                <label>
+                    <input type="radio" name="sexo" class="input-radio" required>
+                    Feminino
+                </label>
+            </fieldset>
+
+            <label>Data de nascismento:*
+                <input type="date" required class="input-data">
+            </label>
+
+            <label>E-mail:*
+                <input type="email" class="input-padrao" placeholder="seuemail@dominio.com" required>
+            </label>
+
+            <label>Telefone:*
+                <input type="tel" class="input-padrao" placeholder="(XX) XXXXX-XXXX" required>
+            </label>
+
+            <label>Mensagem (Opcional):
+                <textarea class="input-padrao" placeholder="Deixe uma mensagem sobre sua experiencia com os nossos serviços."></textarea>
+            </label>
+
+            <fieldset class="opcoes">
+                <legend>O pedido foi entregue no prazo informado?</legend>
+                <label>
+                    <input type="radio" class="input-radio">
+                    Recebi antes do prazo
+                </label>
+                <label>
+                    <input type="radio" class="input-radio">
+                    Recebi no prazo exato
+                </label>
+                <label>
+                    <input type="radio" class="input-radio">
+                    Recebi depois do prazo
+                </label>
+            </fieldset>
+
+            <fieldset class="opcoes">
+                <legend>Foi fácil encontrar o que desejava?</legend>
+                <label>
+                    <input type="radio" class="input-radio">
+                    Sim
+                </label>
+                <label>
+                    <input type="radio" class="input-radio">
+                    Não
+                </label>
+                </label>
+            </fieldset>
+
+            <label>
+                <input type="checkbox" class="checkbox" checked>
+                Quero receber todas as novidades.
+            </label>
+
+            <fieldset class="opcoes">
+                <legend>Como gostaria de receber as novidades:</legend>
+                <label>
+                    <input type="radio" name="contato" class="input-radio" value="email">
+                    E-mail
+                </label>
+                <label>
+                    <input type="radio" name="contato" class="input-radio" value="telefone">
+                    Telefone
+                </label>
+                <label>
+                    <input type="radio" name="contato" class="input-radio" value="whatsapp">
+                    WhatsApp
+                </label>
+            </fieldset>
+
+    
+            <label>
+                <input type="submit" class="botao" value="Enviar">
+            </label>
+
+        </form>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por
+            <img src="iconmonstr-github-1.svg" alt="Logo do GitHub">
+            <a href="https://github.com/getmarcos" target="_blank"> /marcosallan</a>
+        </p>
+    </footer>
+</body>
+<script type="text/javascritp" src="script.js"></script>
+
+</html>
