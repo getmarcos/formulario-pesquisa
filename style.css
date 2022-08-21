@@ -111,6 +111,15 @@ footer p a {
         width: 90%;
     }
 
+    .pesquisa-satisfacao {
+        padding: 30px 20px;
+        font-size: 16px;
+    }
+
+    textarea {
+        height: 110px;
+    }
+
     .input-data {
         width: 50%;
     }
